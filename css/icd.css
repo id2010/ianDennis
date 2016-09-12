@@ -1,0 +1,81 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+#wrapper {
+  margin: 0 250px 0 250px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #ff0000;
+  font: bold;
+  height: 85px;
+  width: 80%;
+}
+.navbar .nav > li > a, .navbar .nav > li > a:first-letter {
+color:          black;
+text-shadow:    none;
+}
+
+.navbar .nav > li > a:hover, .navbar .nav > li > a:hover:first-letter {
+color:          black;
+text-shadow:    none;
+font-weight: bold;
+}
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+body{
+  color: white;
+  background-color: black;
+}
+
+
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #ff0000;
+  color: #000000;
+  font-weight: bold;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  margin: 0 250 0 250 ;
+  width: 80%;
+}
+
+¿#ssn1 {
+    border: none;
+    border-top: orange 1px solid;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    border-left: orange 1px solid;
+    padding-top: 4px;
+    border-bottom: orange 1px solid;
+}
+#ssn2 {
+    border: none;
+    border-right: orange 1px solid;
+    padding-right: 4px;
+    border-top: orange 1px solid;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-bottom: orange 1px solid;
+}
+
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;}
+}
